@@ -40,7 +40,8 @@ By using PCA, data was transformed into thre principals (P1, P2, P3=
 
 An Elbow curve was performed on the data to estime the k value fo KMeans Model.
 
-[ELBOW]
+<img width="848" alt="Screen Shot 2023-02-20 at 19 49 44" src="https://user-images.githubusercontent.com/114015620/220227232-48741aab-8677-42bf-9a71-17c21d29a388.png">
+
 
 The model ran with k=4, as seen in the curve. 
 
@@ -61,11 +62,14 @@ Includig predicted values, coin names and classes.
 
 Visuallly a 3D-Scatter is presented with PCA and cluster data.
 
-[3D-Scatter]
+<img width="875" alt="Screen Shot 2023-02-20 at 19 51 01" src="https://user-images.githubusercontent.com/114015620/220227425-f88e52fc-b2d0-4a5b-b142-546d43345dd4.png">
+
+
 
 Below a table is shown
 
-[table]
+<img width="771" alt="Screen Shot 2023-02-20 at 19 51 57" src="https://user-images.githubusercontent.com/114015620/220227532-2a9de093-0cfb-4ca7-994f-5ae92ea71fcb.png">
+
 
 After all the transformations and machine learning models we can say that 
 
@@ -81,7 +85,7 @@ Resulting in the DataFrame
 
 Resulting in the
 
-[hvplot.scatter plot using x="TotalCoinsMined" and y="TotalCoinSupply".]
+<img width="838" alt="Screen Shot 2023-02-20 at 19 53 25" src="https://user-images.githubusercontent.com/114015620/220227714-27e93ee3-0d51-4fff-babf-f55c96b3d282.png">
 
 
 ## Summary
