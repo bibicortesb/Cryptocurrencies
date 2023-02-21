@@ -7,7 +7,7 @@ The intention is to create a report that shows the cryptocurrencies trading mark
 
 ## Results
 
-- Preprocessing the Data for PCA
+### Preprocessing the Data for PCA
 
 The firt transformation was to keep all crypos being traded. 
 
@@ -29,14 +29,14 @@ For this step it was finally used StandardScaler() to tranform it
 
 ![image](https://user-images.githubusercontent.com/114015620/220174385-ab93b6fe-4ab7-4881-8b49-c4c946ff6b7d.png)
 
-- Reducing Data Dimensions Using PCA
+### Reducing Data Dimensions Using PCA
 
 By using PCA, data was transformed into thre principals (P1, P2, P3=
 
 ![image](https://user-images.githubusercontent.com/114015620/220174530-5e00d072-088e-4cbc-82fb-ea83a7d16e47.png)
 
 
-- Clustering Cryptocurrencies Using K-means
+### Clustering Cryptocurrencies Using K-means
 
 An Elbow curve was performed on the data to estime the k value fo KMeans Model.
 
@@ -57,7 +57,7 @@ The fnal DataFrame looks as follows
 Includig predicted values, coin names and classes. 
 
 
-- Visualizing Cryptocurrencies Results
+### Visualizing Cryptocurrencies Results
 
 Visuallly a 3D-Scatter is presented with PCA and cluster data.
 
