@@ -65,7 +65,6 @@ Visuallly a 3D-Scatter is presented with PCA and cluster data.
 <img width="875" alt="Screen Shot 2023-02-20 at 19 51 01" src="https://user-images.githubusercontent.com/114015620/220227425-f88e52fc-b2d0-4a5b-b142-546d43345dd4.png">
 
 
-
 Below a table is shown
 
 <img width="771" alt="Screen Shot 2023-02-20 at 19 51 57" src="https://user-images.githubusercontent.com/114015620/220227532-2a9de093-0cfb-4ca7-994f-5ae92ea71fcb.png">
@@ -75,15 +74,11 @@ After all the transformations and machine learning models we can say that
 
 ![image](https://user-images.githubusercontent.com/114015620/220175578-9067e034-a448-47ea-82ac-fa939a3e8948.png)
 
-Data used Scaler transformation to be prepared for Scatter plot TotalCoinSupply and TotalCoinsMined.
-
-[Scatter:new DataFrame with the scaled data in XX and the index of the original DataFrame]
-
-Resulting in the DataFrame
+Data used Scaler transformation to be prepared for Scatter plot TotalCoinSupply and TotalCoinsMined. Resulting in the DataFrame
 
 ![image](https://user-images.githubusercontent.com/114015620/220175919-2089f169-e194-4732-a063-3c741afa71f4.png)
 
-Resulting in the
+Resulting in the scatter plot below:
 
 <img width="838" alt="Screen Shot 2023-02-20 at 19 53 25" src="https://user-images.githubusercontent.com/114015620/220227714-27e93ee3-0d51-4fff-babf-f55c96b3d282.png">
 
